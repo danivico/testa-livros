@@ -34,6 +34,7 @@ class Book < SitePrism::Page
 
       fill_in 'twotabsearchtextbox', with: isbn.text
       find('twotabsearchtextbox').send_keys :enter
-      sleep 4
+      sleep 2
+      como assim
       end
   end
