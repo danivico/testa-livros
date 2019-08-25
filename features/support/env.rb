@@ -4,7 +4,6 @@ require 'capybara/rspec'
 require "selenium-webdriver"
 require "site_prism"
 require 'capybara/cucumber'
-require 'rspec'
 
 
 Capybara.configure do |config|
